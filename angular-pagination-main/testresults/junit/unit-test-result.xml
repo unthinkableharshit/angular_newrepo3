@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 103.0.5060.66 (Windows 10)" package="" timestamp="2022-06-28T12:29:57" id="0" hostname="EnkelDevSH-0" tests="3" errors="0" failures="0" time="0.21">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/103.0.5060.66 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.077" classname="AppComponent"/>
+  <testcase name="AppComponent should have as title 'angular-pagination'" time="0.109" classname="AppComponent"/>
+  <testcase name="PaginationComponent should create" time="0.024" classname="PaginationComponent"/>
+  <system-out>
+    <![CDATA[Chrome Headless 103.0.5060.66 (Windows 10) ERROR: 'NG0304: 'app-pagination' is not a known element:
+1. If 'app-pagination' is an Angular component, then verify that it is part of this module.
+2. If 'app-pagination' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,Chrome Headless 103.0.5060.66 (Windows 10) ERROR: 'NG0304: 'app-pagination' is not a known element:
+1. If 'app-pagination' is an Angular component, then verify that it is part of this module.
+2. If 'app-pagination' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
